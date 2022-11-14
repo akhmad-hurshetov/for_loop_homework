@@ -9,4 +9,8 @@ def main(n):
     Returns:
         list: return  answer
     """
-    return
+    list1 = []
+    for i in range(n):
+        list1.append(i)
+    return list1
+print(main(5))
